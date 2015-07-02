@@ -1,0 +1,39 @@
+﻿html, body{
+    margin:0; height:100%;
+}
+body {
+     background: url(../images/mugirl.jpg) 100% 100% no-repeat;
+     background-size: 100% auto;
+     background-position-y:0;
+}
+div.timer{
+    float:left;
+    width:400px;    
+    position:fixed;
+    top:50px;
+    left:100px;
+    color:#fab40e;
+}
+div.timer div div{
+    float:left;    
+    text-align:center;
+}
+div.timer div div.div{
+   width:10px;
+}
+div.time-number div{
+    font-size:40px; 
+     width:90px;   
+}
+div.time-text div{
+    font-size:20px;
+     width:97.5px;
+}
+a.play-now{
+    background-image:url(../images/play-now.gif);
+    width:220px;
+    height:90px;
+    position:fixed;
+    bottom:100px;
+    left:200px;
+}
